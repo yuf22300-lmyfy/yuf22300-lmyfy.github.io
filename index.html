@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>策略手册中心</title>
+<style>
+ body{margin:0;background:#0f1117;color:#e8e8e8;font-family:-apple-system,'Microsoft YaHei',sans-serif}
+ .wrap{max-width:760px;margin:0 auto;padding:24px 16px 48px}
+ h1{font-size:1.4em;margin:.2em 0 .2em}
+ .sub{color:#888;font-size:.85em;margin-bottom:22px}
+ .cards{display:grid;grid-template-columns:1fr;gap:12px}
+ @media(min-width:620px){.cards{grid-template-columns:1fr 1fr}}
+ a.card{display:block;background:#1a1d27;border-radius:14px;padding:16px 18px;text-decoration:none;
+        color:#e8e8e8;border:1px solid #23273a;transition:border-color .15s}
+ a.card:active,a.card:hover{border-color:#4a5680}
+ .icon{font-size:1.6em}
+ .name{font-size:1.05em;font-weight:600;margin:6px 0 4px}
+ .desc{font-size:.82em;color:#9aa0b4;line-height:1.55}
+ .freq{display:inline-block;margin-top:8px;font-size:.72em;color:#6ea8fe;
+       border:1px solid #2a3752;border-radius:20px;padding:2px 10px}
+ .sub2{display:block;margin-top:8px;font-size:.75em;color:#777;text-decoration:underline dotted}
+ .foot{margin-top:28px;color:#666;font-size:.72em;line-height:1.7;border-top:1px solid #222;padding-top:14px}
+</style>
+</head>
+<body><div class="wrap">
+<h1>📊 策略手册中心</h1>
+<div class="sub">全部手册的总入口 · 收藏这一个地址就够了 · 各手册由定时任务自动更新</div>
+
+<div class="cards">
+
+<a class="card" href="https://yuf22300-lmyfy.github.io/opt-paper/">
+ <div class="icon">🔥</div>
+ <div class="name">币安期权手册（50Δ×2）</div>
+ <div class="desc">推荐参数的实时模拟账户 B5：ATM 跨式每日双卖 ×2，带宽 <1.4% 空仓。
+ 逐日开单/结算/平衡带全对账。</div>
+ <span class="freq">每日 16:05 自动更新</span>
+ <span class="sub2">→ 配套：期权回测手册（2018-2026 全历史与压力测试）</span>
+</a>
+
+<a class="card" href="https://yuf22300-lmyfy.github.io/opt-backtest/">
+ <div class="icon">📈</div>
+ <div class="name">期权回测手册</div>
+ <div class="desc">$1,600 起始、50Δ×2 等十组参数的币安全量数据回测：逐日金额、
+ 真实 VRP 实测、插针压力测试、容量封顶。</div>
+ <span class="freq">回测档案（随策略迭代更新）</span>
+</a>
+
+<a class="card" href="https://yuf22300-lmyfy.github.io/pm-paper/">
+ <div class="icon">🎯</div>
+ <div class="name">Polymarket 纸面组合</div>
+ <div class="desc">预测市场策略测试器：100U 虚拟银行、持仓明细与已结算台账，
+ 页面价格 45 秒自刷。</div>
+ <span class="freq">记账由本地脚本驱动</span>
+</a>
+
+<a class="card" href="https://yuf22300-lmyfy.github.io/mlswing-watch/">
+ <div class="icon">🤖</div>
+ <div class="name">ML-Swing 策略手册</div>
+ <div class="desc">Martin Luk 体系的加密市场适配版：ML 择时/Swing 回测档案。</div>
+ <span class="freq">回测档案</span>
+</a>
+
+<a class="card" href="https://yuf22300-lmyfy.github.io/utbot-watch/">
+ <div class="icon">⏱️</div>
+ <div class="name">UT Bot 策略手册</div>
+ <div class="desc">UT Bot 信号监控手册。</div>
+ <span class="freq">监控页</span>
+</a>
+
+<a class="card" href="https://yuf22300-lmyfy.github.io/rotation-handbook/">
+ <div class="icon">🔄</div>
+ <div class="name">轮动手册</div>
+ <div class="desc">横截面动量轮动（加密 + A股ETF）的手册与跟踪。</div>
+ <span class="freq">定期更新</span>
+</a>
+
+</div>
+
+<div class="foot">
+ 手册中心本身是静态入口页，各手册独立部署、互不影响。
+ 新手册上线后会加进这里。GitHub：yuf22300-lmyfy
+</div>
+</div></body>
+</html>
